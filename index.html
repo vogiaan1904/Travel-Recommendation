@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Traveloka</title>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav>
+      <h1>Traveloka</h1>
+      <ul>
+        <li><a href="./index.html" id="home">Home </a></li>
+        <li><a href="./about.html" id="about">About Us </a></li>
+        <li><a href="./contact.html" id="contact">Contact Us </a></li>
+        <li>
+          <input
+            type="text"
+            id="keyWord"
+            placeholder="Enter a destination or keyword"
+          />
+        </li>
+        <li><button id="btnSearch">Search</button></li>
+        <li><button id="btnClear">Clear</button></li>
+      </ul>
+    </nav>
+    <div class="container"> 
+      <div class="container-social">
+          <ul>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-youtube"></a></li>
+          </ul>
+      </div>
+      <div id="container-index">
+        <div class="container-text">
+          <h1>EXPLORE DREAM DESTINATION</h1>
+          <p>Make sure that you include the code for the navbar. The navbar on this page should only include Home, About Us, and Contact Us menu items, not the search bar and buttons.</p>
+          <button id="bookBtn">BOOK NOW</button>
+        </div>
+        <ul id="result">
+        </ul>
+      </div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+  </body>
+</html>
