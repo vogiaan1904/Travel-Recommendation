@@ -70,7 +70,7 @@ button:hover {
 /* Basic CSS for the report section */
 
 .container {
-  background-image:linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(29, 101, 63, 0.73)), url('/assets/img/255795-city-sky-building-night-architecture-travel-world-hd-wallpaper-748x421.jpg');
+  background-image:linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(29, 101, 63, 0.73)), url('https://i.postimg.cc/DZPV9stg/255795-city-sky-building-night-architecture-travel-world-hd-wallpaper-748x421.jpg');
   display: flex;
   justify-content: flex-start;
   height: calc(100vh - 67px);

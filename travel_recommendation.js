@@ -25,7 +25,7 @@ function searchKeyWord() {
         console.log(cities);
         cities.forEach(city => {
             let cityCard = document.createElement('li')
-            cityCard.innerHTML += `<img src="/assets/img/255795-city-sky-building-night-architecture-travel-world-hd-wallpaper-748x421.jpg" alt="">`;
+            cityCard.innerHTML += `<img src="https://i.postimg.cc/DZPV9stg/255795-city-sky-building-night-architecture-travel-world-hd-wallpaper-748x421.jpg" alt="">`;
             cityCard.innerHTML +=   `<div>
                                         <h1>${city.name}</h1>
                                         <p>${city.description}</p>
